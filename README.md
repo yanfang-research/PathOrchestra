@@ -1,7 +1,7 @@
 # PathOrchestra_V1.0.0
 
 ## PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks
-*Arxive 2025*
+*Arxiv 2025*
 
 [Article Link](https://arxiv.org/abs/2503.24345) | [Download Models](#model-weights) | [Download Pre-extracted Embeddings](#pre-extracted-embeddings) | [Cite](#reference) 
 
