@@ -1,4 +1,4 @@
-# PathOrchestra_V1.0.0
+# PathOrchestra (V1.0.0)
 
 ## PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks
 *Arxiv 2025*
