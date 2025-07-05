@@ -21,7 +21,7 @@ The official Repo for *Arixv* 2025 Paper [**PathOrchestra: A Comprehensive Found
 ## Model weights
 | Model Name    | Release Date | Model Architecture | Download Link            |
 |---------------------|--------------|---------------------|-------------------------------------------------------------|
-| PathOrchestra_V1.0.0          |   03/2025        | ViT-l/16                 | [🤗 Hugging Face](https://huggingface.co/yf-research/PathOrchestra/)  |
+| PathOrchestra_V1.0.0          |   03-2025        | ViT-l/16                 | [🤗 Hugging Face](https://huggingface.co/yf-research/PathOrchestra/)  |
 
 ## Pre-extracted Embeddings
 To support downstream applications, we provide pre-extracted embeddings from PathOrchestra_V1.0.0, which are available for download on [🤗 Hugging Face](https://huggingface.co/yf-research/PathOrchestra/).
