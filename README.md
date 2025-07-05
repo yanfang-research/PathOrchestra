@@ -10,6 +10,7 @@
   <a href="#pre-extracted-embeddings">🤗 Download Pre-extracted Embeddings</a> |
   <a href="#reference">📑 Cite</a>
 </p>
+
 ## Introduction
 The official Repo for *Arixv* 2025 Paper **PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks**
 
