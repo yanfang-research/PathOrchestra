@@ -54,7 +54,7 @@ from huggingface_hub import login
 login()  # login with your User Access Token, found at https://huggingface.co/settings/tokens
 
 # pretrained=True needed to load PathOrchestra_v1.0 weights 
-model = timm.create_model("hf-hub:yf-research/PathOrchestra_V1.0.0.0", pretrained=True, init_values=1e-5, dynamic_img_size=True)
+model = timm.create_model("hf-hub:AI4Pathology/PathOrchestra_V1.0.0.0", pretrained=True, init_values=1e-5, dynamic_img_size=True)
 transform = create_transform(**resolve_data_config(model.pretrained_cfg, model=model))
 model.eval()
 ```
