@@ -1,6 +1,7 @@
 # PathOrchestra (V1.0.0)
 
-The official Reoo for *Arxiv 2025* paper ## PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks
+
+The official Repo for *Arixv* 2025 Paper **PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks**
 <p align="center">
     <img src="./figures/PathOrchestra.png" width="400"/>
 <p>
