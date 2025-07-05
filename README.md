@@ -85,3 +85,15 @@ The project was built on top of amazing repositories such as [DINOv2](https://gi
 ## Reference
 If you find our work useful in your research or if you use parts of this code please consider citing our [paper](https://arxiv.org/abs/2503.24345):
 
+Yan, F., Wu, J., Li, J., Wang, W., Lu, J., Chen, W., ... & Wang, Z. (2025). Pathorchestra: A comprehensive foundation model for computational pathology with over 100 diverse clinical-grade tasks. arXiv preprint arXiv:2503.24345
+
+```
+@article{yan2025pathorchestra,
+  title={Pathorchestra: A comprehensive foundation model for computational pathology with over 100 diverse clinical-grade tasks},
+  author={Yan, Fang and Wu, Jianfeng and Li, Jiawen and Wang, Wei and Lu, Jiaxuan and Chen, Wen and Gao, Zizhao and Li, Jianan and Yan, Hong and Ma, Jiabo and others},
+  journal={arXiv preprint arXiv:2503.24345},
+  year={2025}
+}
+``` 
+        
+        .
