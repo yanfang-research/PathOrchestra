@@ -2,7 +2,10 @@
 
 ## PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks
 *Arxiv 2025*
-
+<p align="center">
+    <img src="./PathOrchestra.png" width="400"/>
+<p>
+  
 <p align="center">
   <a href="https://arxiv.org/abs/2503.24345">📑Article Link</a> |
   <a href="#model-weights">🤗 Download Models</a> |
