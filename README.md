@@ -4,7 +4,12 @@
 *Arxiv 2025*
 
 [📑Article Link](https://arxiv.org/abs/2503.24345) | [[🤗 Download Models](#model-weights) | [🤗 [Download Pre-extracted Embeddings](#pre-extracted-embeddings) | [📑 Cite](#reference) 
-
+<p align="center">
+  <a href="https://arxiv.org/abs/2503.24345">📑Article Link</a> |
+  <a href="#model-weights">🤗 Download Models</a> |
+  <a href="#pre-extracted-embeddings">🤗 Download Pre-extracted Embeddings</a> |
+  <a href="#reference">📑 Cite</a>
+</p>
 ### Updates
 - 3/31/2025: Article Online
 - 3/05/2025: Model Weights (V1.0.0) Online
