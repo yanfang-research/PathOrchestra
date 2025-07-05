@@ -31,7 +31,7 @@ pip install -e .
 ```
 
 ### 1. Getting access
-To access the model weights, please request permission via the Hugging Face model page using the links provided in the [Model Weights](#model-weights). Note that you must be logged into your Hugging Face account to download the weights.
+To access the model weights, please request permission via the Hugging Face model page using the links provided in the [Model Weights]([#model-weights](https://huggingface.co/yf-research/PathOrchestra)). Note that you must be logged into your Hugging Face account to download the weights.
 
 ### 2. Downloading weights + Creating model
 Following authentication (using ```huggingface_hub```), the pretrained checkpoints and image transforms for PathOrchestra can be directly loaded using the [timm](https://huggingface.co//github/hub/en/timm) library. This method automatically downloads the model weights to the [huggingface_hub cache](https://huggingface.co//github/huggingface_hub/en/guides/manage-cache) in your home directory, which ```timm``` will automatically find when using the commands below:
