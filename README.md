@@ -15,7 +15,8 @@
 | PathOrchestra_V1.0.0          |   03/2025        | ViT-l/16                 | [HF Link](https://huggingface.co/yf-research/PathOrchestra)  |
 
 ## Pre-extracted Embeddings
-To support downstream applications, we provide pre-extracted embeddings from PathOrchestra_V1.0.0, which are available for download on [🤗 Hugging Face]([https://huggingface.co/collections/Qwen/qwen25-vl-6795ffac22b334a837c0f9a5](https://huggingface.co/yf-research/PathOrchestra/tree/main)).
+To support downstream applications, we provide pre-extracted embeddings from PathOrchestra_V1.0.0, which are available for download on [🤗 Hugging Face](https://huggingface.co/yf-research/PathOrchestra/).
+
 ## Installation
 First, clone the repository and navigate into the project directory:
 ```shell
