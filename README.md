@@ -1,7 +1,5 @@
 # PathOrchestra (V1.0.0)
 
-
-The official Repo for *Arixv* 2025 Paper **PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks**
 <p align="center">
     <img src="./figures/PathOrchestra.png" width="400"/>
 <p>
@@ -12,6 +10,9 @@ The official Repo for *Arixv* 2025 Paper **PathOrchestra: A Comprehensive Founda
   <a href="#pre-extracted-embeddings">🤗 Download Pre-extracted Embeddings</a> |
   <a href="#reference">📑 Cite</a>
 </p>
+## Introduction
+The official Repo for *Arixv* 2025 Paper **PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks**
+
 ### Updates
 - 3/31/2025: Article Online
 - 3/05/2025: Model Weights (V1.0.0) Online
