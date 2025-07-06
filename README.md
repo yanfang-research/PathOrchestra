@@ -15,8 +15,10 @@
 The official Repo for *Arixv* 2025 Paper [**PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks**](https://arxiv.org/abs/2503.24345)
 
 ### Updates
+- 7-07-2025: Features Released (ing)  
 - 3-31-2025: Article Online
-- 3-02-2025: Model Weights (V1.0.0) Online
+- 3-02-2025: Model Weights (V1.0.0) Released
+- 7-14-2024: Initial Release
 
 ## Model weights
 | Model Name    | Release Date | Model Architecture | Download Link            |
