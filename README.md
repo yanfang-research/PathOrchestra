@@ -81,6 +81,42 @@ with torch.inference_mode():
 ```
 These pre-extracted features can be used for ROI classification (e.g., via linear probing), slide-level classification (e.g., using multiple instance learning), and various other machine learning applications.
 
+## 📂 Public Datasets Used in Downstream Tasks
+
+| Dataset | Reference | Link |
+|--------|-----------|------|
+| FocusPath-UofT | Hosseini et al., 2019 | https://sites.google.com/view/focuspathuoft/database |
+| CAMELYON16 | CAMELYON16 | https://camelyon16.grand-challenge.org |
+| CAMELYON17 | CAMELYON17 | https://camelyon17.grand-challenge.org |
+| TCGA-TILs | TCGA-TILs | https://zenodo.org/records/6604094 |
+| PCam | Veeling et al. | https://github.com/basveeling/pcam |
+| GlaS | GlaS Challenge | https://www.kaggle.com/datasets/sani84/glasmiccai2015-gland-segmentation |
+| PanNuke | Gamper et al. | https://link.springer.com/chapter/10.1007/978-3-030-23937-4_2 |
+| CoNSeP | Graham et al. | https://paperswithcode.com/dataset/consep |
+| COSAS | COSAS Challenge | https://cosas.grand-challenge.org/teams/ |
+| TissueNet | DrivenData | https://www.drivendata.org/competitions/67/competition-cervical-biopsy/page/255/ |
+| LC25K | tampapath | https://github.com/tampapath/lung_colon_image_set |
+| BreakHis | Spanhol et al. | https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/ |
+| TCGA-NSCLC | TCGA | https://portal.gdc.cancer.gov/ |
+| TCGA-RCC | TCGA | https://portal.gdc.cancer.gov/ |
+| BACH | ICiar2018 | https://iciar2018-challenge.grand-challenge.org/Dataset/ |
+| TCGA-ESCA | TCGA | https://zenodo.org/record/7548828 |
+| HunCRC | Feczko et al., 2022 | https://www.nature.com/articles/s41597-022-01450-y |
+| PANDA | Bulten et al. | https://panda.grand-challenge.org/data/ |
+| PatchGastricADC22 | Lee et al., 2022 | https://zenodo.org/records/6550925 |
+| AGGC | AGGC Challenge | https://aggc22.grand-challenge.org |
+| TCGA-IDH1 | TCGA | https://www.nature.com/articles/s41597-022-01450-y |
+| CRC-100K | CRC-100K Dataset | https://zenodo.org/records/1214456 |
+| Chaoyang | HSA-NRL Project | https://bupt-ai-cz.github.io/HSA-NRL/ |
+| WSSS4LUAD | WSSS4LUAD | https://wsss4luad.grand-challenge.org/ |
+| Kather | Kather et al. | https://zenodo.org/records/53169 |
+| Ebrains | EBRAINS | https://search.kg.ebrains.eu/instances/Dataset/8fc108ab-e2b4-406f-8999-60269dc1f994 |
+| HEST | Jaume et al., 2024 | https://github.com/mahmoodlab/HEST |
+| DeepCell | DeepCell Team | https://datasets.deepcell.org/data |
+| DigestPath | Da et al., 2022 | https://paperswithcode.com/dataset/digestpath |
+| SegPath | Komura et al. | https://dakomura.github.io/SegPath/ |
+| CoNSeG | Wu et al., 2023 | https://github.com/zzw-szu/CoNuSeg |
+
 ## Acknowledgements
 The project was built on top of amazing repositories such as [DINOv2](https://github.com/facebookresearch/dinov2), [UNI](https://github.com/mahmoodlab/UNI),  and [Timm](https://github.com/huggingface/pytorch-image-models/) (ViT model implementation). We thank the authors and developers for their contribution. 
 
