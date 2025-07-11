@@ -81,7 +81,7 @@ with torch.inference_mode():
 ```
 These pre-extracted features can be used for ROI classification (e.g., via linear probing), slide-level classification (e.g., using multiple instance learning), and various other machine learning applications.
 
-## 📂 Public Datasets Used in Downstream Tasks
+## Public Datasets Used in Downstream Tasks
 
 | Dataset | Reference | Link |
 |--------|-----------|------|
