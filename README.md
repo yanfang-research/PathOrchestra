@@ -117,11 +117,11 @@ These pre-extracted features can be used for ROI classification (e.g., via linea
 | SegPath | Komura et al. | https://dakomura.github.io/SegPath/ |
 | CoNSeG | Wu et al., 2023 | https://github.com/zzw-szu/CoNuSeg |
 
-## Acknowledgements
-The project was built on top of amazing repositories such as [DINOv2](https://github.com/facebookresearch/dinov2), [UNI](https://github.com/mahmoodlab/UNI),  and [Timm](https://github.com/huggingface/pytorch-image-models/) (ViT model implementation). We thank the authors and developers for their contribution. 
-
 ## External Evaluation
 We are pleased to assist researchers in evaluating their models using our private datasets. For more details, please feel free to contact us at the provided email (yanfang@pjlab.org.cn).
+
+## Acknowledgements
+The project was built on top of amazing repositories such as [DINOv2](https://github.com/facebookresearch/dinov2), [UNI](https://github.com/mahmoodlab/UNI),  and [Timm](https://github.com/huggingface/pytorch-image-models/) (ViT model implementation). We thank the authors and developers for their contribution. 
 
 ## Reference
 If you find our work useful in your research or if you use parts of this code please consider citing our [paper](https://arxiv.org/abs/2503.24345):
