@@ -49,35 +49,46 @@ Following authentication (using ```huggingface_hub```), the pretrained checkpoin
 
 ```python
 import timm
-from timm.data import resolve_data_config
-from timm.data.transforms_factory import create_transform
 from huggingface_hub import login
 
-login()  # login with your User Access Token, found at https://huggingface.co/settings/tokens
+# Authenticate with your User Access Token (https://huggingface.co/settings/tokens)
+login(token=your_hf_token)
 
-# pretrained=True needed to load PathOrchestra_v1.0 weights 
-model = timm.create_model("hf-hub:AI4Pathology/PathOrchestra_V1.0.0.0", pretrained=True, init_values=1e-5, dynamic_img_size=True)
-transform = create_transform(**resolve_data_config(model.pretrained_cfg, model=model))
+model = timm.create_model(
+    "hf-hub:AI4Pathology/PathOrchestra",
+    pretrained=True,
+    init_values=1e-5,
+    dynamic_img_size=True,
+)
+
 model.eval()
 ```
 You can use the pretrained encoder to extract features from pathology patches, as follows:
 ```python
+import torch
+
 from PIL import Image
 from torchvision import transforms
+from huggingface_hub import hf_hub_download
 
-transform = transforms.Compose(
-    [
-        transforms.Resize(224),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=(0.485, 0.456, 0.406), std=(0.229, 0.224, 0.225)),
-    ]
-)
 
-image = Image.open("example.png")
-image = transform(image).unsqueeze(dim=0) 
+# Define preprocessing transform
+transform = transforms.Compose([
+    transforms.Resize(224),
+    transforms.ToTensor(),
+    transforms.Normalize(mean=(0.485, 0.456, 0.406),
+                         std=(0.229, 0.224, 0.225))
+])
+
+image_path = hf_hub_download(repo_id="AI4Pathology/PathOrchestra", filename="example.png")
+image = Image.open(image_path).convert("RGB")
+
+image = transform(image).unsqueeze(0)  # Add batch dimension
 
 with torch.inference_mode():
-    feature_emb = model(image) 
+    features = model(image)  # Extract patch-level embedding
+
+    print(feature_emb.shape)
 ```
 These pre-extracted features can be used for ROI classification (e.g., via linear probing), slide-level classification (e.g., using multiple instance learning), and various other machine learning applications.
 
