@@ -41,6 +41,8 @@ conda activate PathOrchestra
 pip install -e .
 ```
 
+
+
 ### 1. Getting access
 To access the model weights, please request permission via the Hugging Face model page using the links provided in the [Model Weights](#model-weights). Note that you must be logged into your Hugging Face account to download the weights.
 
@@ -127,6 +129,9 @@ These pre-extracted features can be used for ROI classification (e.g., via linea
 | DigestPath | Da et al., 2022 | https://paperswithcode.com/dataset/digestpath |
 | SegPath | Komura et al. | https://dakomura.github.io/SegPath/ |
 | CoNSeG | Wu et al., 2023 | https://github.com/zzw-szu/CoNuSeg |
+
+## Using PathOrchestra with PIANO
+You can also use [PIANO (Pathology Image ANalysis Orchestrator)](https://github.com/WonderLandxD/PIANO/tree/preview), a user-friendly PyTorch library, to load and use PathOrchestra along with comprehensive tools for pathology image processing and analysis.
 
 ## External Evaluation
 We are pleased to assist researchers in evaluating their models using our private datasets. For more details, please feel free to contact us at the provided email (yanfang@pjlab.org.cn).
