@@ -2,6 +2,8 @@
 
 ## List of 112 Clinical Downstream Tasks and Datasets
 
+<div style="overflow-x: auto; width: 100%;">
+
 | **Order** | **Task**                                               | **Dataset**                | **Open-Source** | **Rationale**               | **Quantity** | **Level** | **Site**             | **GT Source**                     | **GT Format**    | **Category**             |
 |-----------|--------------------------------------------------------|----------------------------|-----------------|-----------------------------|--------------|-----------|----------------------|------------------------------------|------------------|--------------------------|
 | 1         | Natural vs. Pathological Image Clas.                   | ImageNet-1K/ILSVRC2012     | ✓               | [lu2024multimodal]          | 43,730       | ROI       | Multi-Organ           | Mixed: Public Dataset + Expert Annotation | Binary Label     | Slide Preprocessing       |
