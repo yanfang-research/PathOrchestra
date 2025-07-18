@@ -104,9 +104,7 @@ These pre-extracted features can be used for ROI classification (e.g., via linea
 | TCGA-TILs | TCGA-TILs | https://zenodo.org/records/6604094 |
 | PCam | Veeling et al. | https://github.com/basveeling/pcam |
 | GlaS | GlaS Challenge | https://www.kaggle.com/datasets/sani84/glasmiccai2015-gland-segmentation |
-| PanNuke | Gamper et al. | https://link.springer.com/chapter/10.1007/978-3-030-23937-4_2
-        
-                
+| PanNuke | Gamper et al. | https://link.springer.com/chapter/10.1007/978-3-030-23937-4_2             
 | CoNSeP | Graham et al. | https://paperswithcode.com/dataset/consep |
 | COSAS | COSAS Challenge | https://cosas.grand-challenge.org/teams/ |
 | TissueNet | DrivenData | https://www.drivendata.org/competitions/67/competition-cervical-biopsy/page/255/ |
