@@ -4,5 +4,5 @@ You can use [PIANO (Pathology Image ANalysis Orchestrator)](https://github.com/W
 
 
 <div align="center">
-    <img src="../figures/DownsteamStatics.jpg" width="600" alt="PIANO and PathOrchestra"/>
+    <img src="../figures/DownsteamStatics.jpg" width="500" alt="PIANO and PathOrchestra"/>
 </div>
