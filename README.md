@@ -147,7 +147,6 @@ If you find our work useful in your research or if you use parts of this code pl
 Yan, F., Wu, J., Li, J., Wang, W., Lu, J., Chen, W., ... & Wang, Z. (2025). Pathorchestra: A comprehensive foundation model for computational pathology with over 100 diverse clinical-grade tasks. arXiv preprint arXiv:2503.24345
         
         
-        
 ```
 @article{yan2025pathorchestra,
   title={Pathorchestra: A comprehensive foundation model for computational pathology with over 100 diverse clinical-grade tasks},
