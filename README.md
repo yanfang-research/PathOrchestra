@@ -36,9 +36,8 @@ cd PathOrchestra
 ```
 Next, create a Conda environment and install the required dependencies:
 ```shell
-conda create -n PathOrchestra python=3.10 -y
+conda env create -f environment.yml
 conda activate PathOrchestra
-pip install -e .
 ```
 
 
