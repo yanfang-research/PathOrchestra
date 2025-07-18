@@ -1,9 +1,7 @@
 ## Acknowledgements
-The project was built on top of amazing repositories such as [DINOv2](https://github.com/facebookresearch/dinov2). We sincerely thank the authors and developers for their invaluable contributions to this field.
+This project is built upon the excellent [DINOv2](https://github.com/facebookresearch/dinov2) repository. We sincerely thank the authors and developers for their invaluable contributions to this field.
 
 ## Hyperparameters used in PathOrchestra pretraining
-
-32 × 80GB NVIDIA A100 GPUs were used for training. Batch size refers to the total batch size across GPUs.
 
 | Hyper-parameter                                 | Value                         |
 |--------------------------------------------------|-------------------------------|
