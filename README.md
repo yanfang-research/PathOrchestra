@@ -104,7 +104,9 @@ These pre-extracted features can be used for ROI classification (e.g., via linea
 | TCGA-TILs | TCGA-TILs | https://zenodo.org/records/6604094 |
 | PCam | Veeling et al. | https://github.com/basveeling/pcam |
 | GlaS | GlaS Challenge | https://www.kaggle.com/datasets/sani84/glasmiccai2015-gland-segmentation |
-| PanNuke | Gamper et al. | https://link.springer.com/chapter/10.1007/978-3-030-23937-4_2        
+| PanNuke | Gamper et al. | https://link.springer.com/chapter/10.1007/978-3-030-23937-4_2
+        
+                
 | CoNSeP | Graham et al. | https://paperswithcode.com/dataset/consep |
 | COSAS | COSAS Challenge | https://cosas.grand-challenge.org/teams/ |
 | TissueNet | DrivenData | https://www.drivendata.org/competitions/67/competition-cervical-biopsy/page/255/ |
@@ -143,6 +145,8 @@ The project was built on top of amazing repositories such as [DINOv2](https://gi
 If you find our work useful in your research or if you use parts of this code please consider citing our [paper](https://arxiv.org/abs/2503.24345):
 
 Yan, F., Wu, J., Li, J., Wang, W., Lu, J., Chen, W., ... & Wang, Z. (2025). Pathorchestra: A comprehensive foundation model for computational pathology with over 100 diverse clinical-grade tasks. arXiv preprint arXiv:2503.24345
+        
+        
         
 ```
 @article{yan2025pathorchestra,
