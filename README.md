@@ -12,7 +12,7 @@
 </p>
 
 ## Introduction
-The official Repo for *Arixv* 2025 Paper [**PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks**](https://arxiv.org/abs/2503.24345)
+The official Repo for Paper accepted in NPJ Digital Medicine, 2025 [**PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks**](https://arxiv.org/abs/2503.24345)
 
 ### Updates
 - 7-07-2025: Features Released (ing)  
