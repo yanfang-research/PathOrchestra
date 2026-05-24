@@ -5,7 +5,7 @@
 <p>
   
 <p align="center">
-  <a href="[https://arxiv.org/abs/2503.24345](https://www.nature.com/articles/s41746-025-02027-w)">📑Article Link</a> |
+  <a href="https://www.nature.com/articles/s41746-025-02027-w">📑Article Link</a> |
   <a href="#model-weights">🤗 Download Models</a> |
   <a href="#pre-extracted-embeddings">🤗 Download Pre-extracted Embeddings</a> |
   <a href="#reference">📑 Cite</a>
