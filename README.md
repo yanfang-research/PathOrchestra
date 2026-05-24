@@ -5,14 +5,14 @@
 <p>
   
 <p align="center">
-  <a href="https://arxiv.org/abs/2503.24345">📑Article Link</a> |
+  <a href="[https://arxiv.org/abs/2503.24345](https://www.nature.com/articles/s41746-025-02027-w)">📑Article Link</a> |
   <a href="#model-weights">🤗 Download Models</a> |
   <a href="#pre-extracted-embeddings">🤗 Download Pre-extracted Embeddings</a> |
   <a href="#reference">📑 Cite</a>
 </p>
 
 ## Introduction
-The official Repo for Paper accepted in NPJ Digital Medicine, 2025 [**PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks**](https://arxiv.org/abs/2503.24345)
+The official Repo for Paper accepted in NPJ Digital Medicine, 2025 [**PathOrchestra: A Comprehensive Foundation Model for Computational Pathology with Over 100 Diverse Clinical-Grade Tasks**](https://www.nature.com/articles/s41746-025-02027-w)
 
 ### Updates
 - 7-07-2025: Features Released (ing)  
@@ -147,8 +147,8 @@ Yan, F., Wu, J., Li, J., Wang, W., Lu, J., Chen, W., ... & Wang, Z. (2025). Path
 ```
 @article{yan2025pathorchestra,
   title={Pathorchestra: A comprehensive foundation model for computational pathology with over 100 diverse clinical-grade tasks},
-  author={Yan, Fang and Wu, Jianfeng and Li, Jiawen and Wang, Wei and Lu, Jiaxuan and Chen, Wen and Gao, Zizhao and Li, Jianan and Yan, Hong and Ma, Jiabo and others},
-  journal={arXiv preprint arXiv:2503.24345},
+  author={Fang Yan, Jianfeng Wu, Jiawen Li, Wei Wang, Yirong Chen, Linda Wei, Jiaxuan Lu, Wen Chen, Zizhao Gao, Jianan Li, Heng Li, Hong Yan, Jiabo Ma, Minda Chen, Yang Lu, Qing Chen, Yizhi Wang, Xitong Ling, Xuenian Wang, Zihan Wang, Qiang Huang, Shengyi Hua, Mianxin Liu, Lei Ma, Tian Shen, Xiaofan Zhang, Yonghong He, Hao Chen, Shaoting Zhang, Zhe Wang},
+  journal={npj Digital Medicine},
   year={2025}
 }
 ``` 
